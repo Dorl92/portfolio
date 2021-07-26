@@ -6,7 +6,7 @@ import { Element, scroller } from 'react-scroll'
 import Layout from './Layout';
 import computerImage from './images/homepage-computer-image.jpg';
 import downArrow from './images/down-arrows.svg';
-import myImage from './images/erik-lucatero-d2MSDujJl2g-unsplash.jpg';
+import myPhoto from './images/my_photo.jpg';
 
 
 
@@ -52,7 +52,7 @@ function Homepage(props) {
                 <Element name="about-section">
                     <div className={classes.secondContainer}>
                         <div className={classes.left}>
-                            <img src={myImage} alt="my-img" />
+                            <img style={{borderRadius: "4px"}} src={myPhoto} alt="my-img" />
                         </div>
                         <div className={classes.right}>
                             <div className={classes.aboutMe}>

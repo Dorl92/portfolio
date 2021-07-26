@@ -13,16 +13,14 @@ export default {
             fontSize: "14px",
             fontWeight: "600",
             letterSpacing: "2px"
-        },
-        [sizes.down("sm")]: {
-            // position: "fixed",
-            // backgroundColor: "white",
-            // zIndex: "10"
         }
     },
     logo: {
         "& a": {
             color: "#33323d"
+        },
+        [sizes.down("xs")]: {
+            margin: "0 1rem"
         }
     },
     links: {
@@ -47,6 +45,9 @@ export default {
         },
         [sizes.down("sm")]: {
             display: "flex"
+        },
+        [sizes.down("xs")]: {
+            margin: "0 1rem"
         }
     },
     drawerLinks: {

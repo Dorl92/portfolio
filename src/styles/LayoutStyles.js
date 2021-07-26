@@ -14,6 +14,9 @@ export default {
         },
         [sizes.down("sm")]: {
             width: "90vw",
+        },
+        [sizes.down("xs")]: {
+            width: "100vw",
         }
     }
 }

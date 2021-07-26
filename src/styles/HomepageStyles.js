@@ -2,16 +2,14 @@ import sizes from './sizes';
 
 export default {
     root: {
-        height: "100%"
+        height: "100%",
     },
     firstContainer: {
         marginBottom: "7rem",
         position: "relative",
-        // height: "0%",
         "& img": {
             borderRadius: "3px",
             width: "100%",
-            // height: "80%"
         },
         [sizes.down("sm")]: {
             position: "static",
@@ -31,7 +29,11 @@ export default {
         backgroundColor: "white",
         [sizes.down("sm")]: {
             position: "static",
+            width: "50%",
+        },
+        [sizes.down("xs")]: {
             width: "75%",
+            padding: "0 1rem"
         },
     },
     aboutMePreviewText: {

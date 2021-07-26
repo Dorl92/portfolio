@@ -7,8 +7,11 @@ export default {
         justifyContent: "space-between",
         marginBottom: "7rem",
         [sizes.down("xl")]: {
-            display: "inline",
-            // flexDirection: "column"
+            // display: "inline",
+            flexDirection: props => (props.project.reverseView ? "column" : "column"),
+        },
+        [sizes.down("xs")]: {
+            margin: "0 1rem"
         }
     },
     left: {

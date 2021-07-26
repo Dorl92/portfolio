@@ -12,6 +12,9 @@ export default {
         [sizes.down("sm")]: {
             flexDirection: "column",
         },
+        [sizes.down("xs")]: {
+            margin: "0rem 1rem"
+        }
     },
     left: {
         width: "50%",
@@ -20,6 +23,9 @@ export default {
         fontFamily: 'Ibarra Real Nova',
         fontSize: "36px",
         fontWeight: "600",
+        [sizes.down("sm")]: {
+            width: "80%",
+        }
     },
     right: {
         width: "50%",

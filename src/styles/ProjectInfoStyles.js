@@ -17,6 +17,9 @@ export default {
         [sizes.down("md")]: {
             flexDirection: "column",
         },
+        [sizes.down("xs")]: {
+            margin: "5rem 1rem"
+        }
     },
     left: {
         width: "40%",
@@ -119,6 +122,9 @@ export default {
             fontSize: "16px",
             fontWeight: "300",
             color: "#c0c0c0"
+        },
+        [sizes.down("xs")]: {
+            margin: "1rem 1rem"
         }
     },
     previousProject: {

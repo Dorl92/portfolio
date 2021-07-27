@@ -44,7 +44,7 @@ export default [
         techRequirements: "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider",
         techList: "HTML / CSS / JS / React",
         projectType: "Interaction Design / Front End Development",
-        background: "This project was a front-end challenge from Frontend Mentor. The project allows you to create a todo list and enter all your tasks so that you do not forget anything. At the end there is an option to mark each todo as completed. In addition, It is also possible to switch between a dark theme and a light theme, depending on your convenience.",
+        background: "This project was a front-end challenge from Frontend Mentor. The project allows you to create a todo list and enter all your tasks so that you do not forget anything. At the end there is an option to mark each todo as completed. In addition, It is also possible to switch between a dark theme and a light theme, depending on your preference.",
         mainImage: todo,
         previewImages: [todo1, todo2],
         url: "https://create-todos-app.herokuapp.com/",

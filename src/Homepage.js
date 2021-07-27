@@ -63,7 +63,7 @@ function Homepage(props) {
                                     I’m a junior front-end developer looking for a new role in an exciting company.
                                     I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript.
                                     When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required.
-                                    I graduate a B.S.c in mechanical engineering from Ben Gurion University, but I decided to make a professional transition to the world of software development.
+                                    I graduated a B.S.c in mechanical engineering from Ben Gurion University, but I decided to make a professional transition to the world of software development.
                                     I’m based in Tel-Aviv, Israel, and looking for a job in this area but I’m happy working remotely as well.
                                     When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk,
                                     run or cycling. I’d love you to check out my work.

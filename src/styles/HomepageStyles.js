@@ -20,12 +20,11 @@ export default {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-evenly",
-        // alignItems: "end",
         bottom: "0",
         left: "0",
         borderRadius: "0 3px 0 0",
         width: "320px",
-        height: "280px",
+        height: "300px",
         backgroundColor: "white",
         [sizes.down("sm")]: {
             position: "static",
@@ -35,6 +34,7 @@ export default {
             width: "75%",
             padding: "0 1rem"
         },
+        // animation: "$fade 3500ms",
     },
     aboutMePreviewText: {
         padding: "1.5rem 1rem 1.5rem 0rem",
@@ -93,6 +93,7 @@ export default {
                 width: "80%",
             }
         },
+        // animation: "$slideRight 2000ms",
     },
     right: {
         width: "50%",
@@ -100,10 +101,11 @@ export default {
         [sizes.down("md")]: {
             width: "100%",
         },
+        // animation: "$slideLeft 2000ms",
     },
     aboutMe: {
         height: "100%",
-        margin: "0 6rem",
+        marginLeft: "5rem",
         borderTop: "1px solid #d8d8d8",
         [sizes.down("xl")]: {
             margin: "0 1rem 0 3rem",
@@ -186,5 +188,56 @@ export default {
             margin: "2rem 0",
 
         },
-    }
+    },
+    // '@keyframes fade':{
+    //     "0%":{
+    //         opacity: "0"
+    //     },
+    //     "40%":{
+    //         opacity: "0"
+    //     },
+    //     "100%":{
+    //         opacity: "1"
+    //     }
+    // },
+    // '@keyframes slideRight':{
+    //     "0%":{
+    //         transform: "translateX(-50%)",
+    //         opacity: "0"
+    //     },
+    //     "100%":{
+    //         transform: "translateX(0)",
+    //         opacity: "1"
+    //     }
+    // },
+    // '@keyframes slideLeft':{
+    //     "0%":{
+    //         transform: "translateX(50%)",
+    //         opacity: "0"
+    //     },
+    //     "100%":{
+    //         transform: "translateX(0)",
+    //         opacity: "1"
+    //     }
+    // },
+    // '@keyframes slideDown':{
+    //     "0%":{
+    //         transform: "translateY(-50%)",
+    //         opacity: "0"
+    //     },
+    //     "100%":{
+    //         transform: "translateY(0)",
+    //         opacity: "1"
+    //     }
+    // },
+    // '@keyframes slideUp':{
+    //     "0%":{
+    //         transform: "translateY(50%)",
+    //         opacity: "0"
+    //     },
+    //     "100%":{
+    //         transform: "translateY(0)",
+    //         opacity: "1"
+    //     }
+    // },
 }

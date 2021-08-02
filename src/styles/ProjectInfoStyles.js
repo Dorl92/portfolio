@@ -12,7 +12,7 @@ export default {
     firstContainer: {
         display: "flex",
         justifyContent: "space-between",
-        marginTop: "5rem",
+        marginTop: "2rem",
         marginBottom: "7rem",
         [sizes.down("md")]: {
             flexDirection: "column",
@@ -24,16 +24,17 @@ export default {
     left: {
         width: "40%",
         textAlign: "left",
+        borderRight: "1px solid #d8d8d8",
         [sizes.down("md")]: {
             width: "100%",
             borderBottom: "1px solid #d8d8d8",
+            borderRight: "none",
             paddingBottom: "2rem"
         },
     },
     projectTech: {
         height: "100%",
         marginRight: "4rem",
-        borderTop: "1px solid #d8d8d8",
         [sizes.down("md")]: {
             marginRight: "0rem",
         },
@@ -89,7 +90,7 @@ export default {
         },
     },
     backgroundTitle: {
-        marginBottom: "2rem",
+        margin: "2rem 0",
         fontFamily: 'Ibarra Real Nova',
         fontSize: "32px",
         fontWeight: "600",
@@ -160,56 +161,5 @@ export default {
         borderRight: "none",
         borderLeft: "none",
         textAlign: "right",
-    },
-    thirdContainer: {
-        display: "flex",
-        alignItems: "center",
-        margin: "2rem 0 10rem 0",
-        [sizes.down("sm")]: {
-            flexDirection: "column",
-            margin: "3rem 1.5rem 2rem 1.5rem",
-            borderTop: "1px solid #d8d8d8",
-        },
-    },
-    text: {
-        width: "35%",
-        textAlign: "left",
-        fontFamily: 'Ibarra Real Nova',
-        fontSize: "34px",
-        fontWeight: "600",
-        [sizes.down("sm")]: {
-            width: "70%",
-            textAlign: "center",
-            marginTop: "5rem"
-        },
-    },
-    line: {
-        height: "1px",
-        width: "60%",
-        borderBottom: "1px solid #d8d8d8",
-        margin: "0 2rem",
-        [sizes.down("sm")]: {
-            display: "none",
-        },
-    },
-    contactButton: {
-        border: "1px solid",
-        borderRadius: "2px",
-        width: "150px",
-        padding: "1rem 3rem",
-        margin: "1rem 0",
-        fontSize: "14px",
-        letterSpacing: "1px",
-        transition: "all 0.2s ease-in-out",
-        "&:hover": {
-            cursor: "pointer",
-            backgroundColor: "#33323d",
-            color: "white"
-        },
-        [sizes.down("sm")]: {
-            width: "30%",
-            margin: "2rem 0",
-
-        },
     }
 }

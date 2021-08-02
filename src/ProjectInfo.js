@@ -6,6 +6,7 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import Layout from './Layout';
 import seedData from './seedData';
+import ContactContainer from './ContactContainer';
 
 const ProjectInfo = (props) => {
     const { classes, match, history } = props;
@@ -45,10 +46,6 @@ const ProjectInfo = (props) => {
         } else {
             history.push(`/portfolio/${seedData[0].projectName}`)
         }
-    }
-
-    const handleContactMeClick = () => {
-        history.push('/contact-me')
     }
 
     const handleViewWebsiteClick = () => {
@@ -119,11 +116,7 @@ const ProjectInfo = (props) => {
                     <ChevronRightIcon className={classes.rightIcon} onClick={handleNextProjectClick} />
                 </div>
             </div>
-            <div className={classes.thirdContainer}>
-                <div className={classes.text}>Intersted in doing a project together?</div>
-                <div className={classes.line}></div>
-                <div className={classes.contactButton} onClick={handleContactMeClick}>CONTACT ME</div>
-            </div>
+            <ContactContainer />
         </Layout>
     );
 };

@@ -1,30 +1,28 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { withStyles } from '@material-ui/styles';
 import Slider from "react-slick";
 import styles from './styles/HomepageStyles';
 import { Element, scroller } from 'react-scroll';
 import Aos from 'aos';
-import 'aos/dist/aos.css'; 
-
+import 'aos/dist/aos.css';
 import Layout from './Layout';
-
 import homepageImage1 from './images/homepage-image-1.jpg';
 import homepageImage2 from './images/homepage-image-2.jpg';
 import homepageImage3 from './images/homepage-image-3.jpg';
-
 import downArrow from './images/down-arrows.svg';
 import myPhoto from './images/my_photo.jpg';
+import ContactContainer from './ContactContainer';
 
 function Homepage(props) {
 
     const { classes, history } = props;
 
-    useEffect(()=>{
+    useEffect(() => {
         Aos.init({
             duration: 2000,
             once: true,
         })
-    },[])
+    }, [])
 
     const settings = {
         dots: false,
@@ -53,10 +51,6 @@ function Homepage(props) {
         })
     }
 
-    const handleContactMeClick = () => {
-        history.push('/contact-me')
-    }
-
     return (
         <Layout>
             <div className={classes.root}>
@@ -65,14 +59,14 @@ function Homepage(props) {
                         {images.map(image => {
                             return (
                                 <div key={image}>
-                                    <img src={image} style={{width: "100%", height:"90%"}} alt="homepage-img" />
+                                    <img src={image} style={{ width: "100%", height: "90%" }} alt="homepage-img" />
                                 </div>
                             )
                         })}
                     </Slider>
                     <div data-aos="fade" className={classes.aboutMePreview}>
                         <div className={classes.aboutMePreviewText}>
-                            Hey, I'm Dor Lahiyani and I love developing React websites
+                            Hey,<br /> I'm Dor Lahiyani<br /> and I love developing React websites
                         </div>
                         <div className={classes.aboutMePreviewButton} onClick={scrollTo}>
                             <div className={classes.icon}>
@@ -95,7 +89,7 @@ function Homepage(props) {
                                     About Me
                                 </div>
                                 <div className={classes.aboutMeText}>
-                                    I’m a junior front-end developer looking for a new role in an exciting company.
+                                    I’m a junior front-end developer looking for a new role in an exciting company.<br />
                                     I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript.
                                     When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required.
                                     I graduated a B.S.c in mechanical engineering from Ben Gurion University, but I decided to make a professional transition to the world of software development.
@@ -110,11 +104,7 @@ function Homepage(props) {
                         </div>
                     </div>
                 </Element>
-                <div data-aos="fade-up" className={classes.thirdContainer}>
-                    <div className={classes.text}>Interested in doing a project together?</div>
-                    <div className={classes.line}></div>
-                    <div className={classes.contactButton} onClick={handleContactMeClick}>CONTACT ME</div>
-                </div>
+                <ContactContainer />
             </div>
         </Layout>
     );

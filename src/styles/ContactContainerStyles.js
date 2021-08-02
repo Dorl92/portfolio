@@ -1,7 +1,7 @@
 import sizes from './sizes';
 
 export default {
-    thirdContainer: {
+    container: {
         display: "flex",
         alignItems: "center",
         margin: "3rem 0 10rem 0",
@@ -17,7 +17,7 @@ export default {
         fontSize: "34px",
         fontWeight: "600",
         [sizes.down("sm")]: {
-            width: "70%",
+            width: "85%",
             textAlign: "center",
             marginTop: "5rem"
         },
@@ -46,7 +46,6 @@ export default {
             color: "white"
         },
         [sizes.down("sm")]: {
-            width: "30%",
             margin: "2rem 0",
 
         },

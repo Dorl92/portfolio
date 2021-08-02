@@ -19,7 +19,7 @@ export default {
     left: {
         width: "50%",
         textAlign: "left",
-        marginTop: "3rem",
+        marginTop: "2rem",
         fontFamily: 'Ibarra Real Nova',
         fontSize: "36px",
         fontWeight: "600",
@@ -30,7 +30,7 @@ export default {
     right: {
         width: "50%",
         textAlign: "left",
-        margin: "3rem 0 1rem 0",
+        margin: "2rem 0 1rem 0",
         [sizes.down("sm")]: {
             width: "90%",
         },

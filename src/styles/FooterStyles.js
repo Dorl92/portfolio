@@ -91,10 +91,10 @@ export default {
             transform: "scale(1.3)"
         }
     },
-    facebook: {
+    email: {
         transition: "all 0.1s ease-in-out",
         "&:hover": {
-            color: "#3b5998",
+            color: "#ff4343",
             cursor: "pointer",
             transform: "scale(1.3)"
         }

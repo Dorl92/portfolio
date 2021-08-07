@@ -6,6 +6,8 @@ import footerLogo from './images/footer-logo.svg';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import EmailIcon from '@material-ui/icons/Email';
+
 
 function Footer(props) {
     const { classes } = props;
@@ -29,7 +31,11 @@ function Footer(props) {
                     <div className={classes.socialIcons}>
                         <LinkedInIcon className={classes.linkedin} onClick={() => window.open("https://www.linkedin.com/in/dor-lahiyani-62a5161a3/")} />
                         <GitHubIcon className={classes.github} onClick={() => window.open("https://github.com/Dorl92")} />
-                        <FacebookIcon className={classes.facebook} onClick={() => window.open("https://www.facebook.com/dor.lahiyani/")} />
+                        <EmailIcon className={classes.email} onClick={(evt) => {
+                            evt.preventDefault();
+                            window.open("mailto:dorl929@gmail.com")
+                        }
+                        } />
                     </div>
                 </div>
             </div>

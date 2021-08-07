@@ -1,5 +1,6 @@
 import serviceim from './images/serviceim.jpg';
 import colorPicker from './images/color1.jpg';
+import ipAddress from './images/ipAddress.jpg';
 import todo from './images/todo.jpg';
 //serviceim
 import serviceim1 from './images/serviceim1.jpg';
@@ -9,6 +10,9 @@ import serviceim3 from './images/serviceim3.jpg';
 import color1 from './images/colorPicker.jpg';
 import color2 from './images/color2.jpg';
 import color3 from './images/color3.jpg';
+//ip-address-tracker
+import ipAddress1 from './images/ipAddress.jpg';
+import ipAddress2 from './images/ipAddress2.jpg';
 //todo
 import todo1 from './images/todo1.jpg';
 import todo2 from './images/todo2.jpg';
@@ -18,7 +22,7 @@ export default [
         projectName :"serviceim",
         name: "Serviceim",
         techRequirements: "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider",
-        techList: "HTML / CSS / JS/ React Hooks / Firebase",
+        techList: "HTML / CSS / JS/ React Hooks / API/ Firebase",
         projectType: "Interaction Design / Front End Development",
         background: "Serviceim is a platform that allows you to advertise and offer your professional services in any field you choose. Most of the services offered on Serviceim are digital services. You can also purchase any service you want and track the seller's progress until the service is completed, and depending on your satisfaction leave a review of the service.",
         mainImage: serviceim,
@@ -39,6 +43,18 @@ export default [
         reverseView: true
     },
     {
+        projectName: "ip-address-tracker",
+        name: "IP Address Tracker",
+        techRequirements: "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider",
+        techList: "HTML / CSS / JS / React/ API/ Mapbox",
+        projectType: "Interaction Design / Front End Development",
+        background: "This project was a front-end challenge from Frontend Mentor. The project allows you to track any IP address by sending API request through Ipify and display the IP location on the map using Mapbox.",
+        mainImage: ipAddress,
+        previewImages: [ipAddress1, ipAddress2],
+        url: "https://ip-address-tracker-app.herokuapp.com/",
+        reverseView: false
+    },
+    {
         projectName: "to-do",
         name: "To Do",
         techRequirements: "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider",
@@ -48,6 +64,7 @@ export default [
         mainImage: todo,
         previewImages: [todo1, todo2],
         url: "https://create-todos-app.herokuapp.com/",
-        reverseView: false
+        reverseView: true
     }
+
 ]

@@ -2,7 +2,11 @@ import sizes from './sizes';
 
 export default {
     navbar: {
-        width: "100%",
+        position: "fixed",
+        top: "0",
+        left: "50",
+        zIndex: "2",
+        width: "inherit",
         height: "100px",
         display: "flex",
         alignItems: "center",

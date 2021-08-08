@@ -5,7 +5,7 @@ export default {
         height: "100%",
     },
     firstContainer: {
-        marginBottom: "7rem",
+        // marginBottom: "2rem",
         position: "relative",
         "& img": {
             borderRadius: "3px",
@@ -70,7 +70,7 @@ export default {
     secondContainer: {
         display: "flex",
         justifyContent: "space-between",
-        paddingTop: "1rem",
+        paddingTop: "100px",
         marginBottom: "7rem",
         [sizes.down("md")]: {
             display: "inline",
@@ -83,6 +83,7 @@ export default {
             width: "100%",
         },
         [sizes.down("md")]: {
+            paddingTop: "100px",
             width: "100%",
             "& img": {
                 width: "60%",

@@ -59,11 +59,12 @@ export default {
             cursor: "pointer",
         }
     },
-    facebook: {
-        transition: "all 0.2s ease-in-out",
+    email: {
+        transition: "all 0.1s ease-in-out",
         "&:hover": {
-            color: "#3b5998",
+            color: "#ff4343",
             cursor: "pointer",
+            transform: "scale(1.3)"
         }
     },
     form: {

@@ -5,7 +5,6 @@ export default {
         height: "100%",
     },
     firstContainer: {
-        // marginBottom: "2rem",
         position: "relative",
         "& img": {
             borderRadius: "3px",

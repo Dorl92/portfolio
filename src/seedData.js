@@ -10,6 +10,9 @@ import serviceim3 from './images/serviceim3.jpg';
 import color1 from './images/colorPicker.jpg';
 import color2 from './images/color2.jpg';
 import color3 from './images/color3.jpg';
+//weather-tracking
+import weather1 from './images/weather1.jpg';
+import weather2 from './images/weather2.jpg';
 //ip-address-tracker
 import ipAddress1 from './images/ipAddress.jpg';
 import ipAddress2 from './images/ipAddress2.jpg';
@@ -43,6 +46,18 @@ export default [
         reverseView: true
     },
     {
+        projectName: "weather-tracking",
+        name: "Weather Tracking",
+        techRequirements: "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider",
+        techList: "HTML / CSS / JS / React/ API",
+        projectType: "Interaction Design / Front End Development",
+        background: "This project was a front-end challenge from devChallenges. This project was build with React framework and it allows users to track the weather anywhere in the world, by sending API request through Metaweather according to user search. In Addition, a user can track the weather at his current location.",
+        mainImage: weather1,
+        previewImages: [weather1, weather2],
+        url: "https://weather-tracking-app.netlify.app/",
+        reverseView: false
+    },
+    {
         projectName: "ip-address-tracker",
         name: "IP Address Tracker",
         techRequirements: "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider",
@@ -52,7 +67,7 @@ export default [
         mainImage: ipAddress,
         previewImages: [ipAddress1, ipAddress2],
         url: "https://ip-address-tracker-app.herokuapp.com/",
-        reverseView: false
+        reverseView: true
     },
     {
         projectName: "to-do",
@@ -64,7 +79,6 @@ export default [
         mainImage: todo,
         previewImages: [todo1, todo2],
         url: "https://create-todos-app.herokuapp.com/",
-        reverseView: true
+        reverseView: false
     }
-
 ]

@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter basename="https://dorlahiyani-portfolio.netlify.app/">
+  <BrowserRouter>
     <App />
   </BrowserRouter>,
   document.getElementById('root')

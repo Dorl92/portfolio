@@ -78,7 +78,7 @@ export default [
         background: "This project was a front-end challenge from Frontend Mentor. The project allows you to create a todo list and enter all your tasks so that you do not forget anything. At the end there is an option to mark each todo as completed. In addition, It is also possible to switch between a dark theme and a light theme, depending on your preference.",
         mainImage: todo,
         previewImages: [todo1, todo2],
-        url: "https://create-todos-app.herokuapp.com/",
+        url: "https://todo-tasks-list-app.netlify.app/",
         reverseView: false
     }
 ]

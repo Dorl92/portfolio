@@ -30,7 +30,7 @@ export default [
         background: "Serviceim is a platform that allows you to advertise and offer your professional services in any field you choose. Most of the services offered on Serviceim are digital services. You can also purchase any service you want and track the seller's progress until the service is completed, and depending on your satisfaction leave a review of the service.",
         mainImage: serviceim,
         previewImages: [serviceim1, serviceim2, serviceim3],
-        url: "https://serviceim-app.herokuapp.com/",
+        url: "https://serviceim.netlify.app/",
         reverseView: false
     },
     {

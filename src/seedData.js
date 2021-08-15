@@ -42,7 +42,7 @@ export default [
         background: "This project allows you to create a color palette of your choice and for any use. Each color you choose has the option to show a variety of shades and copy the hex, rgb and rgba code for each color and shade. You can also use any of the ready-made plates.",
         mainImage: colorPicker,
         previewImages: [color1, color2, color3],
-        url: "https://color-palette-builder.herokuapp.com/",
+        url: "https://create-color-palette.netlify.app/",
         reverseView: true
     },
     {
@@ -66,7 +66,7 @@ export default [
         background: "This project was a front-end challenge from Frontend Mentor. The project allows you to track any IP address by sending API request through Ipify and display the IP location on the map using Mapbox.",
         mainImage: ipAddress,
         previewImages: [ipAddress1, ipAddress2],
-        url: "https://ip-address-tracker-app.herokuapp.com/",
+        url: "https://ip-address-app.netlify.app/",
         reverseView: true
     },
     {
